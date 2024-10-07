@@ -1,0 +1,48 @@
+<!DOCTYPE Html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Management</title>
+    <link rel="stylesheet" href="index.css"> 
+    <script src="App.js" nonce="<random-value>"> defer</script>
+
+</head>
+<body>
+    <div class="container">
+        <h1>Library Management System</h1>
+
+        <h2>Books</h2>
+        <ul id="book-list"></ul>
+
+        <h3>Add Book</h3>
+        <form id="book-form">
+            <input type="text" id="book-title" placeholder="Title">
+            <input type="text" id="book-author" placeholder="Author">
+            <input type="number" id="book-quantity" placeholder="Quantity">
+            <button type="submit">Add Book</button>
+        </form>
+
+        <h3>Issue Book</h3>
+        <form id="issue-form">
+            <input type="number" id="issue-book-id" placeholder="Book ID">
+            <input type="number" id="issue-member-id" placeholder="Member ID">
+            <button type="submit">Issue Book</button>
+        </form>
+
+        <h3>Return Book</h3>
+        <form id="return-form">
+            <input type="number" id="return-transaction-id" placeholder="Transaction ID">
+            <button type="submit">Return Book</button>
+        </form>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Library Management System By Brevian</p>
+    </footer>
+    <div id="root"></div>
+</body>
+</html>
+
+
+
