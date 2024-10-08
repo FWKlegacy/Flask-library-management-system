@@ -25,9 +25,7 @@ This project is a web application that uses React.js for the front end and Pytho
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Running the Application](#running-the-application)
-- [API Endpoints](#api-endpoints)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ## Prerequisites
 
